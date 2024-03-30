@@ -64,7 +64,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                       color: Colors.green),
                   child: Text(
                     capitalizeOnlyFirstLetter(categories[index]),
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
