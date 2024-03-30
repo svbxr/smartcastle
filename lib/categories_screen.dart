@@ -61,7 +61,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                       EdgeInsets.only(left: 10, right: 10, top: 6, bottom: 6),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Colors.green),
+                      color: Colors.blue),
                   child: Text(
                     capitalizeOnlyFirstLetter(categories[index]),
                     style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
