@@ -41,7 +41,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Categories')),
+      appBar: AppBar(title: Text('CategoriesList')),
       body: ListView.builder(
           itemCount: categories.length,
           itemBuilder: (context, index) {
