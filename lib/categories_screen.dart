@@ -58,7 +58,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                 },
                 child: Container(
                   padding:
-                      EdgeInsets.only(left: 10, right: 10, top: 6, bottom: 6),
+                      EdgeInsets.only(left: 12, right: 12, top: 6, bottom: 6),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
                       color: Colors.green),
